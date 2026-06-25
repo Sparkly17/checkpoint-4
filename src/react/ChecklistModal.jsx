@@ -101,7 +101,7 @@ function ChecklistModal({ title, data, color = '#315A9F', onClose }) {
                     </button>
                     <div className="cl-modal-share">
                         <p className="b16">Поделиться</p>
-                        <img src={telegram} alt="Telegram"/>
+                        <a href="https://t.me/pirozhochkiiii" target="_blank" rel="noreferrer"><img src={telegram} alt="Telegram"/></a>
                         <img src={vk} alt="ВКонтакте"/>
                     </div>
                 </div>

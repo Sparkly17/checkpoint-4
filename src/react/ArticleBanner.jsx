@@ -5,7 +5,7 @@ import Crumbs from "./Crumbs.jsx";
 function ArticleBanner({ title, crumbs, tags = [], readTime, color, slug }) {
     return (
         <section className='article-banner' style={color ? { backgroundColor: color } : undefined}>
-            {slug && <img className='article-banner-cover' src={`/src/images/article/${slug}/cover.png`} alt="" />}
+            {slug && <img className='article-banner-cover' src={`/checkpoint-4/images/article/${slug}/cover.png`} alt="" />}
             <div className='article-banner-tags'>
                 {tags.map(tag => <Tag key={tag} tag={tag}/>)}
                 {readTime && <Tag tag={`${readTime} минут`}/>}

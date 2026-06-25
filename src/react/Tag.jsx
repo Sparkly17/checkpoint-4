@@ -25,9 +25,11 @@ class Tag extends React.Component {
                 src = finance;
                 break;
             case 'Учеба':
+            case 'Учёба':
                 src = study;
                 break;
             case 'Социализация':
+            case 'Общение':
                 src = social;
                 break;
         }

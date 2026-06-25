@@ -26,7 +26,7 @@ class Header extends React.Component {
                     <p className={"sb20 m-b14"}>Разбор кейсов</p>
                     <p className={"sb20 m-b14"}>Подкасты</p>
                     <p className={"sb20 m-b14"}>Интервью</p>
-                    <p className={"sb20 m-b14"}>Спецпроекты</p>
+                    <a href={'/checkpoint-4/sitemap.xml'} className={"sb20 m-b14"} target="_blank" rel="noreferrer">Карта сайта</a>
                 </div>
                 <div className={classNames("footer-contacts")}>
                     <div className={classNames("footer-contact")}>

@@ -447,10 +447,12 @@ strong {
 
 .card.black-text .card-overlay {
   color: black;
+  .tag img { filter: brightness(0); }
 }
 
 .card.white-text .card-overlay {
   color: white;
+  .tag img { filter: brightness(0) invert(1); }
 }
 
 .circle-card.white-text .vertical-circle-card-overlay {
@@ -526,6 +528,12 @@ strong {
 
 .vertical * {
   order: 2;
+}
+
+@media (min-width: 376px) {
+  .vertical .tag img {
+    order: -1;
+  }
 }
 
 .vertical-circle-card-tags{
