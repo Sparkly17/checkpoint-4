@@ -1,0 +1,73 @@
+.act-doc{
+  margin-top: 40px;
+}
+
+.temp-buttons{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.doc-crumbs{
+  margin-top: 24px;
+}
+
+.temp-button-get-pdf{
+  background-color: #262626;
+  padding: 12px 20px;
+  width: 285px;
+  height: 56px;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.temp-button-get-pdf.mobile{
+  display: none;
+}
+
+.temp-buttons-share{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  .temp-buttons{
+    display: block;
+    margin: 16px 24px;
+  }
+
+  .banner-top{
+    .temp-button-get-pdf{
+      margin: 24px 0;
+      color: black;
+    }
+  }
+
+  .temp-button-get-pdf{
+    width: 100%;
+  }
+
+  .temp-buttons-share{
+    margin-top: 16px;
+  }
+
+  .temp-buttons-share .b16{
+    margin-right: auto;
+  }
+
+  .banner-top-header{
+    display: block;
+  }
+
+  .temp-button-get-pdf.mobile{
+    display: flex;
+  }
+
+}

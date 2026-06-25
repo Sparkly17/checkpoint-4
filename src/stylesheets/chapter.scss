@@ -1,0 +1,30 @@
+.banner{
+  background-color: #E8E2DA;
+}
+
+.asort-btns{
+  display: flex;
+  gap: 16px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.cards-list{
+  display: grid;
+  gap: 20px;
+}
+
+.cards-section{
+  margin-top: 40px;
+}
+
+@media (max-width: 375px) {
+  .cards-list{
+    display: flex;
+    flex-direction: column;
+  }
+  .asort-btns{
+    overflow: auto;
+    width: 327px;
+  }
+}

@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'Onest';
+  font-weight: 400;
+  src: url("./fonts/Onest-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest';
+  font-weight: 500;
+  src: url("./fonts/Onest-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest';
+  font-weight: 600;
+  src: url("./fonts/Onest-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest';
+  font-weight: 700;
+  src: url("./fonts/Onest-Bold.ttf") format('truetype');
+}
+
+* {
+  font-family: "Onest", sans-serif !important;
+}
+
+.b172-172 {
+  font-size: 172px;
+  line-height: 1;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.b128{
+  font-size: 128px;
+  line-height: 128px;
+  font-weight: bold;
+}
+
+.b80{
+  font-size: 80px;
+  line-height: 102px;
+  font-weight: bold;
+}
+
+.b80-80{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.b80-90{
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: bold;
+}
+
+.b48{
+  font-size: 48px;
+  line-height: 61px;
+  font-weight: bold;
+}
+
+.b48-48{
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.sb48-48{
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.b40{
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+.b32{
+  font-size: 32px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.b28-32{
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.b32-32{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.sb96{
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 600;
+}
+
+.b96{
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 700;
+}
+
+.sb32{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.b24{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: bold;
+}
+
+.b24-24{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.n32{
+  font-size: 32px;
+  line-height: 41px;
+  font-weight:  500;
+}
+
+.s20-28{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.s20{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.s20-20{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.s16{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.n20{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight:  500;
+}
+
+.n20-20{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight:  500;
+}
+
+.sb16{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.b16{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.sb20{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.sb24{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.sb20-20{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.n16{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.b24-50{
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.n20-60{
+  font-size: 20px;
+  line-height: 60px;
+  font-weight:  500;
+}
+
+.n24{
+  font-size: 24px;
+  line-height: 110%;
+  font-weight:  500;
+}
+
+.n24-31{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight:  500;
+}
+
+.b20{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.s10{
+  font-size: 10px;
+  line-height: 11px;
+  font-weight: 400;
+}
+
+.s17{
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.s24{
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+@media (max-width: 375px) {
+  .m-sb14{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+  .m-b24{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .m-b32{
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .m-b32-36{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .m-sb14-14{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+
+  .m-n18{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .m-sb20{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .m-s16{
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+
+  .m-sb16{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+
+  .m-b20{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  .m-n16{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  .m-s14{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+
+  .m-n14{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+  }
+
+  .m-n14{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  .m-b14{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+  }
+
+  .m-b16{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+  }
+
+  .m-b30{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 700;
+  }
+
+  .m-n14-20{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .m-b30-30{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .m-b24{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  .m-sb24{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .m-n20{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .m-sb30{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+
+  .m-b48{
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+}

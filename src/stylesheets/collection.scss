@@ -1,0 +1,48 @@
+.collection{
+  margin-bottom: 40px;
+}
+
+.collection-act-doc{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.checklist-report-title{
+  margin-bottom: 20px;
+}
+
+.checklist-report{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.checklist-report-p-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+
+.collection-flat-check{
+  width: 792px;
+  margin: 96px auto;
+}
+
+
+@media (max-width: 375px) {
+  .checklist-report{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .checklist-report-p-title img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .collection-act-doc{
+    margin: 48px 0;
+  }
+}
