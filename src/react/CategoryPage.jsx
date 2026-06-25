@@ -32,8 +32,8 @@ export function CategoryPage({ color, folder, catTag, categorySlug, grid, title,
     function renderCard(article, slot, index) {
         if (!article) return <div key={index} />
         const f = article.fields
-        const img = `/src/images/category/${folder}/${index + 1}.png`
-        const mimg = `/src/images/category/${folder}/m-${index + 1}.png`
+        const img = `/checkpoint-4/images/category/${folder}/${index + 1}.png`
+        const mimg = `/checkpoint-4/images/category/${folder}/m-${index + 1}.png`
         const CardCmp = slot.cmp === 'circle' ? CircleCard : Card
         const tags = [slot.tag, catTag]
 

@@ -34,7 +34,7 @@ function CategoryCards({ category, slug, layout }) {
           >
             {rowArticles.map((article) => {
               const f = article.fields
-              const imgPath = (name) => name ? `/src/images/category/${slug}/${name}` : null
+              const imgPath = (name) => name ? `/checkpoint-4/images/category/${slug}/${name}` : null
               const cardProps = {
                 title: f.title,
                 tags: f.tags || [],

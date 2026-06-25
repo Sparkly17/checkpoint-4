@@ -2,6 +2,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -13,6 +14,7 @@ module.exports = {
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
+    publicPath: '/checkpoint-4/'
   },
   module: {
     rules: [
@@ -114,7 +116,13 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
+    ]),
+    new CopyPlugin({
+      patterns: [
+        { from: 'src/images/article', to: 'images/article' },
+        { from: 'src/images/category', to: 'images/category' }
+      ]
+    })
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]

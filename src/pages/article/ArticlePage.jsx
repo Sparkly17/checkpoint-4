@@ -34,7 +34,7 @@ function RichText({ text }) {
 
 function Block({ block, slug, color }) {
   const f = block.fields
-  const img = (name) => name ? `/src/images/article/${name}` : null
+  const img = (name) => name ? `/checkpoint-4/images/article/${name}` : null
 
   switch (f.type) {
     case 'text':
