@@ -447,13 +447,17 @@ strong {
 
 .card.black-text .card-overlay {
   color: black;
-  .tag img { filter: brightness(0); }
 }
+
+.card.black-text .card-overlay .tag img,
+.card.black-text .card-tags .tag img { filter: brightness(0); }
 
 .card.white-text .card-overlay {
   color: white;
-  .tag img { filter: brightness(0) invert(1); }
 }
+
+.card.white-text .card-overlay .tag img,
+.card.white-text .card-tags .tag img { filter: brightness(0) invert(1); }
 
 .circle-card.white-text .vertical-circle-card-overlay {
   color: white;
@@ -512,6 +516,7 @@ strong {
 
 .circle-card-tags .tag, .vertical-circle-card-tags .tag{
   color: black;
+  img { filter: brightness(0); }
 }
 
 .vertical .circle-card-info{
